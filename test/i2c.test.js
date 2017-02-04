@@ -1,7 +1,13 @@
-var expect = require("chai").expect; var assert = require('chai').assert;
-var expect = require('chai').expect;
+const assert = require('chai').assert,
+    expect = require('chai').expect,
+    five = require('johnny-five'),
+    placeholder = require('../lib/placeholder-io');;
 
 describe('i2c', function () {
+    var board;
+    before(done => {
+        board = new five.Board({ io: new placeholder() }).on('ready', done);
+    });
     describe('Writing', function () {
         describe('i2cWrite(address, inBytes)', function () {
             it('TODO')

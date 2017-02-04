@@ -23,7 +23,7 @@
   "dependencies": {
     "board-io": "^3.0.5",
     "debug": "^2.6.0",
-    "util": "^0.10.3"
+    "johnny-five": "^0.10.6"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
