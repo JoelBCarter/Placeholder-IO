@@ -1,0 +1,27 @@
+{
+  "name": "placeholder-io",
+  "version": "0.1.0",
+  "description": "Placeholder IO Plugin for Johnny-Five",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelBCarter/Placeholder-IO.git"
+  },
+  "keywords": [
+    "johnny-five",
+    "io"
+  ],
+  "author": "Joel B. Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelBCarter/Placeholder-IO/issues"
+  },
+  "homepage": "https://github.com/JoelBCarter/Placeholder-IO#readme",
+  "dependencies": {
+    "board-io": "^3.0.5",
+    "debug": "^2.6.0"
+  }
+}
